@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: passwordchecker
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.13
+      - key: HOST
+        value: 0.0.0.0
