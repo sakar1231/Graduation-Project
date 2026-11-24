@@ -1,0 +1,17 @@
+{
+  "benchmark": "single-item local PasswordRiskPredictor.evaluate",
+  "scope": "model preprocessing, prediction, label and guidance; excludes Streamlit rendering and HIBP network lookup",
+  "input_policy": "three researcher-created synthetic examples rotated across calls",
+  "warmup_iterations": 10,
+  "timed_iterations": 100,
+  "median_ms": 1.54265,
+  "p95_ms_nearest_rank": 1.8319,
+  "maximum_ms": 2.4691,
+  "minimum_ms": 1.387,
+  "mean_ms": 1.583852,
+  "python_version": "3.12.14",
+  "scikit_learn_version": "1.7.2",
+  "joblib_version": "1.5.2",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "recorded_utc": "2026-10-19T05:58:17.577868+00:00"
+}

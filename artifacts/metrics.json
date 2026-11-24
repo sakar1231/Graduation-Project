@@ -1,0 +1,49 @@
+[
+  {
+    "model": "logistic_regression",
+    "accuracy": 0.9977,
+    "precision": 0.9989973932223782,
+    "recall": 0.9964,
+    "f1": 0.9976970061079403,
+    "latency_ms_per_password": 0.030281824999838135,
+    "true_negative": 9990,
+    "false_positive": 10,
+    "false_negative": 36,
+    "true_positive": 9964,
+    "roc_auc": 0.99979138,
+    "average_precision": 0.9998274060643492,
+    "brier_score": 0.0019803867000426968,
+    "complex_leaked_recall": 0.9482758620689655,
+    "model_size_bytes": 48540
+  },
+  {
+    "model": "random_forest",
+    "accuracy": 0.99785,
+    "precision": 0.9976011994002999,
+    "recall": 0.9981,
+    "f1": 0.9978505373656585,
+    "latency_ms_per_password": 0.031920979998540135,
+    "true_negative": 9976,
+    "false_positive": 24,
+    "false_negative": 19,
+    "true_positive": 9981,
+    "roc_auc": 0.9999018,
+    "average_precision": 0.9999306285219912,
+    "brier_score": 0.0016930772351365577,
+    "complex_leaked_recall": 0.9712643678160919,
+    "model_size_bytes": 6392760
+  },
+  {
+    "model": "luds_baseline",
+    "accuracy": 0.9739,
+    "precision": 1.0,
+    "recall": 0.9478,
+    "f1": 0.9732005339357224,
+    "latency_ms_per_password": 0.0025771799992071465,
+    "true_negative": 10000,
+    "false_positive": 0,
+    "false_negative": 522,
+    "true_positive": 9478,
+    "complex_leaked_recall": 0.0
+  }
+]
