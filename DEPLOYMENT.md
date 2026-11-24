@@ -18,7 +18,7 @@ On macOS or Linux use `.venv/bin/python server.py` after installing the requirem
 
 ## Deploy on Render
 
-1. Create a repository containing the CONTENTS of this website directory at its root. Include src, templates, static, requirements.txt, server.py, render.yaml and the two artifacts. Do not upload raw password datasets, virtual environments, caches, logs or secrets.
+1. Create a repository containing the CONTENTS of this website directory at its root. Include src, templates, static, requirements.txt, server.py, render.yaml and the artifacts folder. Do not upload raw password datasets, virtual environments, caches, logs or secrets.
 2. Sign in to Render, create a Blueprint, and connect that repository. Review the free web service described by render.yaml before deploying.
 3. Alternatively create a Python Web Service: build command `pip install -r requirements.txt`; start command `python server.py`; environment variables `PYTHON_VERSION=3.12.13` and `HOST=0.0.0.0`; health check `/health`. Render supplies PORT.
 4. Open the HTTPS address provided by Render and test an invented example with and without the breach check. Verify `/health` returns `{"status":"ok"}`. Check resource usage before relying on the free plan for a presentation. Free services can sleep and need time to start.
