@@ -51,7 +51,7 @@ templates/index.html     Website interface
 static/style.css         Responsive styling
 static/app.js            Form interaction and result rendering
 src/password_risk/       Data loading, features, baseline, predictor, breach check
-artifacts/               Trained model, model manifest (and metrics if you add them)
+artifacts/               Trained model, manifest, recorded metrics (metrics.json/csv), single-item benchmark, results summary
 tests/                   Unit tests for features, baseline, predictor, breach lookup, model
 test_web.py              Website integration tests
 requirements.txt         Python dependencies
