@@ -1,0 +1,8 @@
+.venv/
+.python-runtime/
+__pycache__/
+*.pyc
+.env
+*.log
+rockyou*
+*.tar.gz
