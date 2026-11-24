@@ -1,4 +1,4 @@
-"""Safe local inference wrapper used by the Streamlit interface."""
+"""used by the Flask website."""
 
 from __future__ import annotations
 
